@@ -1,0 +1,61 @@
+
+h1{  
+    
+    margin: 0;
+    font-family: "Agbalumo";
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:aqua;
+
+}
+
+body{
+display:flex ;
+align-items: center;
+justify-content: center;
+text-align: center;
+margin: 0;
+margin-top: 100px;
+
+}
+img{
+    border-radius: 10px;
+    width: 200px;
+    z-index: 1;
+    border: 5px solid aqua;
+}
+p{
+ font-family: Inter;
+ color:aqua;
+}
+div{
+    width: 300px;
+    height: 600px;
+    background-color: blueviolet;
+    position: relative;
+    padding: 10px;
+    top:0px ;
+
+}
+button {
+    background-color: aqua;
+    border-color: #FFFFFF;
+    border-width: 2px;
+    color: blueviolet;
+    border-radius: 10px;
+    padding: 8px;
+    margin: 15px; 
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: white;
+    border-width: 2px;
+    border-color: blueviolet;
+    color: blueviolet;
+    border-radius: 10px;
+    padding: 8px;
+    cursor: pointer;
+}
+
